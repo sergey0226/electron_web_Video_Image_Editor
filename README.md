@@ -1,11 +1,5 @@
 # VoTT (Visual Object Tagging Tool)
 
-[![Build Status](https://dev.azure.com/msft-vott/VoTT/_apis/build/status/VoTT/Microsoft.VoTT?branchName=master)](https://dev.azure.com/msft-vott/VoTT/_build/latest?definitionId=25&branchName=master)
-[![Code Coverage](https://codecov.io/gh/Microsoft/VoTT/branch/master/graph/badge.svg)](https://codecov.io/gh/Microsoft/VoTT)
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=Microsoft_VoTT&metric=alert_status)](https://sonarcloud.io/dashboard?id=Microsoft_VoTT)
-
-[Complexity Analysis Report](https://vottv2.z5.web.core.windows.net/)
-
 ----------
 
 An open source annotation and labeling tool for image and video assets.
@@ -19,8 +13,6 @@ Features include:
 * Extensible model for exporting labeled data to local or cloud storage providers
 
 VoTT helps facilitate an end-to-end machine learning pipeline:
-
-![alt text](docs/images/ml-workflow.png "Machine Learning Workflow")
 
 ## Table of Contents
 <!-- generated using: https://www.npmjs.com/package/markdown-toc-->
@@ -70,7 +62,6 @@ VoTT is available for Windows, Linux and OSX. Download the appropriate platform 
 VoTT requires [NodeJS (>= 10.x, Dubnium) and NPM](https://github.com/nodejs/Release)
 
    ```bash
-    git clone https://github.com/Microsoft/VoTT.git
     cd VoTT
     npm ci
     npm start
@@ -280,16 +271,3 @@ npm run release
 ```
 For details on packaging executable for the release -- please review our [PACKAGING.md](./docs/PACKAGING.md)
 
-## Collaborators
-
-VoTT was originally developed by the [Commercial Software Engineering (CSE) group at Microsoft](https://www.microsoft.com/developerblog/) in Israel.
-
-V2 is developed by the CSE group at Microsoft in Redmond, Washington.
-
-## Contributing to VoTT
-
-There are many ways to contribute to VoTT -- please review our [contribution guidelines](CONTRIBUTING.md).
-
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see
-the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com)
-with any additional questions or comments.
